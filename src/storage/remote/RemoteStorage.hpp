@@ -36,7 +36,7 @@ class Digest;
 namespace storage::remote {
 
 constexpr auto k_redacted_password = "********";
-const auto k_default_connect_timeout = std::chrono::milliseconds{100};
+const auto k_default_connect_timeout = std::chrono::milliseconds{500};
 const auto k_default_operation_timeout = std::chrono::milliseconds{10000};
 
 // This class defines the API that a remote storage must implement.
